@@ -11,14 +11,14 @@ const Header = () => {
         document.body.style.overflow = showSlide ? 'hidden' : 'auto';
     }, [showSlide]);
     return (
-        <div className='pt-3.5 overflow-hidden min-[1921px]:max-w-[1920px] mx-auto px-5'>
+        <div className='overflow-hidden mx-auto px-5'>
             <div className='container flex justify-between items-center'>
                 <a href="#"><img className='max-w-[85px]' src="./assets/images/logo.webp" alt="" /></a>
-                <div className={`flex gap-10 max-lg:gap-6 max-lg:flex-col max-lg:justify-center max-lg:items-center max-lg:fixed max-lg:top-0 max-lg:w-full max-lg:h-full max-lg:bg-black duration-300 ease-linear z-10 ${showSlide ? 'max-lg:left-0' : 'max-lg:left-full'}`}>
+                <div className={`flex gap-[30px] max-lg:gap-6 max-lg:flex-col max-lg:justify-center max-lg:items-center max-lg:fixed max-lg:top-0 max-lg:w-full max-lg:h-full max-lg:bg-black duration-300 ease-linear z-10 ${showSlide ? 'max-lg:left-0' : 'max-lg:left-full'}`}>
                     {HEADER_LIST.map((obj, i) => (
                         <ul key={i}>
-                            <li className='flex gap-1 flex-row justify-center items-center relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:h-0.5 after:left-0 after:bg-white pb-0.5'>
-                                <a onClick={closeNavbar} href={obj.link} className=' text-base font-bold text-white'>{obj.item}</a>
+                            <li className='flex gap-1 flex-row justify-center items-center relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:-bottom-3 after:h-2 after:left-0 after:bg-header-line after:bg-cover after:bg-center after:max-w-16'>
+                                <a onClick={closeNavbar} href={obj.link} className=' text-base font-bold text-custom-2xl'>{obj.item}</a>
                             </li>
                         </ul>
                     ))}
@@ -28,7 +28,7 @@ const Header = () => {
                 ))}
                </div>
                 </div>
-               <div className=''>
+               <div className='flex gap-5'>
                 {SOCIAL_MEDIA_LIST.map((obj , i)=> (
                     <a key={i} href={obj.link}>{obj.icon}</a>
                 ))}

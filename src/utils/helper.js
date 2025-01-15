@@ -6,16 +6,24 @@ export const HEADER_LIST = [
         link: "#home"
     },
     {
-        item: 'Services',
-        link: "#services"
-    },
-    {
-        item: 'Projects',
-        link: "#projects"
+        item: 'Story',
+        link: "#story"
     },
     {
         item: 'About',
         link: "#about"
+    },
+    {
+        item: 'Roadmap',
+        link: "#roadmap"
+    },
+    {
+        item: 'Team',
+        link: "#team"
+    },
+    {
+        item: 'FAQs',
+        link: "#faq"
     }
 ]
 
