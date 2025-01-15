@@ -5,18 +5,22 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontSize:{
-        "custom-2xl":"22px",
-        "custom-4xl":"40px",
-        "custom-7xl":"70px"
+      colors: {
+        "smoke-white":"#FCF5FD",
+        "baby-pink":"#E68AFC",
       },
-      lineHeight:{
-        "custom-lg":"115%",
-        "custom-5xl":"174%",
-        "custom-6xl":"182%"
+      fontSize: {
+        "custom-2xl": "22px",
+        "custom-4xl": "40px",
+        "custom-7xl": "70px"
       },
-      backgroundImage:{
-        "heading-horse":"url(../public/assets/images/little-horse-image.webp)"
+      lineHeight: {
+        "custom-lg": "115%",
+        "custom-5xl": "174%",
+        "custom-6xl": "182%"
+      },
+      backgroundImage: {
+        "heading-horse": "url(../public/assets/images/little-horse-image.webp)",
       }
     },
   },
