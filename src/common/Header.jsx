@@ -14,7 +14,7 @@ const Header = () => {
         <div className='overflow-hidden mx-auto px-5'>
             <div className='container flex justify-between items-center'>
                 <a href="#"><img className='max-w-[85px]' src="./assets/images/logo.webp" alt="" /></a>
-                <div className={`flex gap-[30px] max-lg:gap-6 max-lg:flex-col max-lg:justify-center max-lg:items-center max-lg:fixed max-lg:top-0 max-lg:w-full max-lg:h-full max-lg:bg-black duration-300 ease-linear z-10 ${showSlide ? 'max-lg:left-0' : 'max-lg:left-full'}`}>
+                <div className={`flex gap-[30px] max-lg:gap-6 max-lg:flex-col max-lg:justify-center max-lg:items-center max-lg:fixed max-lg:top-0 max-lg:w-full max-lg:h-full max-lg:bg-pink-400 duration-300 ease-linear z-10 ${showSlide ? 'max-lg:left-0' : 'max-lg:left-full'}`}>
                     {HEADER_LIST.map((obj, i) => (
                         <ul key={i}>
                             <li className='flex gap-1 flex-row justify-center items-center relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:-bottom-3 after:h-2 after:left-0 after:bg-header-line after:bg-cover after:bg-center after:max-w-16'>
@@ -22,15 +22,15 @@ const Header = () => {
                             </li>
                         </ul>
                     ))}
-                       <div className='lg:hidden'>
+                       <div className='lg:hidden flex gap-5'>
                 {SOCIAL_MEDIA_LIST.map((obj , i)=> (
-                    <a key={i} href={obj.link}>{obj.icon}</a>
+                    <a key={i} href={obj.link} className='hover:scale-110 duration-300'>{obj.icon}</a>
                 ))}
                </div>
                 </div>
-               <div className='flex gap-5'>
+               <div className='flex gap-5 max-lg:hidden'>
                 {SOCIAL_MEDIA_LIST.map((obj , i)=> (
-                    <a key={i} href={obj.link}>{obj.icon}</a>
+                    <a key={i} href={obj.link} className='hover:scale-110 duration-300'>{obj.icon}</a>
                 ))}
                </div>
                 <div onClick={toggleSidebar} className='z-[15] flex-col gap-1 lg:hidden flex'>
