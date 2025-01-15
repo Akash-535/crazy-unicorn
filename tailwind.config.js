@@ -27,7 +27,6 @@ module.exports = {
       },
       backgroundImage:{
         "header-line":"url(../public/assets/images/header-text-line.webp)",
-        "hero-bg":"url(../public/assets/images/hero-background.webp)"
       }
     },
   },

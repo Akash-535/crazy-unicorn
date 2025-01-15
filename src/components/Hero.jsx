@@ -3,7 +3,7 @@ import Header from '../common/Header'
 
 const Hero = () => {
   return (
-    <div className='bg-hero-bg bg-no-repeat bg-cover min-h-[1085px] relative'>
+    <div className='min-h-[1085px] relative'>
       <img className='absolute bottom-0 left-0' src="./assets/images/hero-clouds.webp" alt="" />
      <Header/>
      <div className='relative pt-[165px]'>
