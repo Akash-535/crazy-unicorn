@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@font-face {
+  font-family: Pinkunicorn;
+  src: url("../public/assets/fonts/Pinky Unicorn.ttf");
+}
 body {
+  font-family: "Pinkunicorn", sans-serif;
+}
+.font-comic {
   font-family: "Comic Neue", sans-serif;
 }
