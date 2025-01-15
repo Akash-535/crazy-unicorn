@@ -10,7 +10,7 @@ const Faq = () => {
   };
   return (
     <div id='faq' className="bg-faq-bg-img bg-no-repeat bg-cover bg-center">
-      <div className="container xl:py-[147px] lg:py-24 py-16 mx-auto max-xl:px-4">
+      <div className="container xl:pb-[132px] lg:pb-24 pb-16 mx-auto max-xl:px-4 xl:pt-[103px] md:pt-16 pt-12">
         <Heading text="FAQs" myClass=" text-center mx-auto pb-[88px]" />
         <div className="max-w-[1189px] flex flex-col lg:gap-[35px] gap-4 mx-auto">
           {FAQ_DATA_LIST.map((item, index) => (

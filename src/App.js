@@ -1,4 +1,5 @@
 import Faq from './components/Faq';
+import News from './components/News';
 import Team from './components/Team';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <Team />
       <Faq />
+      <News />
     </>
   );
 }
