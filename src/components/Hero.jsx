@@ -3,13 +3,12 @@ import Header from '../common/Header'
 
 const Hero = () => {
   return (
-    <div className='min-h-[1085px] relative'>
-      <img className='absolute bottom-0 left-0' src="./assets/images/hero-clouds.webp" alt="" />
+    <div className='relative'>
      <Header/>
-     <div className='relative pt-[165px]'>
-            <div className='max-w-[1265px] mx-auto'>
-        <img className='max-w-[1264px] w-full' src="./assets/images/hero-image.webp" alt="hero rainbow" />
-        <img className='max-w-[600px] absolute top-[52%] left-1/2 -translate-x-1/2' src="./assets/images/hero-horse-img.webp" alt="horse img" />
+     <div className='relative pt-[165px] max-2xl:pt-24 max-xl:pt-16 max-lg:pt-0'>
+            <div className='max-w-[1265px] mx-auto max-2xl:max-w-[1000px] max-xl:max-w-[750px] max-lg:max-w-[550px] px-5'>
+        <img className='w-full' src="./assets/images/webp/hero-image.webp" alt="hero rainbow" />
+        <img className='max-w-[600px] absolute top-[52%] left-1/2 -translate-x-1/2 max-2xl:max-w-[490px] max-2xl:top-[48%] w-full max-xl:max-w-[370px] max-lg:max-w-[260px] max-lg:top-[40%] max-[524px]:max-w-[166px]' src="./assets/images/webp/hero-horse-img.webp" alt="horse img" />
       </div>
      </div>
     </div>

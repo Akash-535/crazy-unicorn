@@ -26,7 +26,7 @@ module.exports = {
         "custom-6xl":"182%"
       },
       backgroundImage:{
-        "header-line":"url(../public/assets/images/header-text-line.webp)",
+        "header-line":"url(../public/assets/images/webp/header-text-line.webp)",
       }
     },
   },

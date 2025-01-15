@@ -31,6 +31,7 @@ export const DiscordIcon = () => (
     <rect width="21.9567" height="21.9567" fill="white" transform="translate(10.1504 10.0635)"/>
     </clipPath>
     </defs>
-    </svg>
-    
+    </svg>    
 )
+
+
