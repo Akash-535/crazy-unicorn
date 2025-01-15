@@ -4,6 +4,16 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    container: {
+      center: true,
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1140px",
+        "2xl":"1330px"
+      },
+    },
     extend: {
       fontSize:{
         "custom-2xl":"22px",
@@ -16,7 +26,7 @@ module.exports = {
         "custom-6xl":"182%"
       },
       backgroundImage:{
-        "heading-horse":"url(../public/assets/images/little-horse-image.webp)"
+        "hero-bg":"url(../public/assets/images/hero-background.webp)"
       }
     },
   },

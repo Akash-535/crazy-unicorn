@@ -20,7 +20,16 @@ export const HEADER_LIST = [
 ]
 
 export const SOCIAL_MEDIA_LIST = [
-    <TwitterIcon/>,
-    <InstagramIcon/>,
-    <DiscordIcon/>
+   {
+    icon: <TwitterIcon/>,
+    link:"https://x.com"
+   },
+    {
+        icon:<InstagramIcon/>,
+        link:"https:instagram.com"
+    },
+    {
+        icon:<DiscordIcon/>,
+        link:"https://discord.com"
+    }
 ]
