@@ -13,8 +13,8 @@ const Faq = () => {
   };
   return (
     <div id='faq' className="relative">
-      <Lottie className='absolute pointer-events-none right-0 top-20 max-2xl:max-w-96 max-xl:max-w-72 max-md:max-w-[198px] max-md:top-1/4 -z-[1]' animationData={rightLottie}/>
-      <Lottie className='absolute pointer-events-none left-0 -top-1/4 max-2xl:max-w-60 max-xl:max-w-48 max-md:max-w-[198px] max-md:-bottom-10 -z-[1]' animationData={leftLottie}/>
+      <Lottie className='absolute pointer-events-none right-0 top-20 max-2xl:max-w-96 max-xl:max-w-72 max-md:max-w-[198px] max-md:top-1/4 -z-[1] max-md:hidden' animationData={rightLottie}/>
+      <Lottie className='absolute pointer-events-none left-0 -top-1/4 max-2xl:max-w-60 max-xl:max-w-48 max-md:max-w-[198px] max-md:-bottom-10 -z-[1] max-md:hidden' animationData={leftLottie}/>
       <div className="container xl:pb-[132px] lg:pb-24 pb-16 mx-auto max-xl:px-5 xl:pt-[103px] md:pt-16 pt-12">
         <div className='relative text-center max-w-[143px] mx-auto'>
           <img className='pointer-events-none max-w-[118px] absolute -top-14 max-lg:-top-14 -right-11 max-lg:-right-10 max-sm:-right-8 max-md:max-w-[90px]' src="./assets/images/webp/little-horse-image.webp" alt="little horse" />

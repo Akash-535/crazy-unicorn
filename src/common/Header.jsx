@@ -33,9 +33,9 @@ const Header = () => {
                     <a key={i} href={obj.link} className='hover:scale-110 duration-300'>{obj.icon}</a>
                 ))}
                </div>
-                <div onClick={toggleSidebar} className='z-[15] flex-col gap-1 lg:hidden flex'>
+                <div onClick={toggleSidebar} className='z-[15] flex-col gap-1 lg:hidden flex cursor-pointer'>
                     <span className={`${showSlide ? 'w-8 h-1 bg-white rotate-45 translate-y-3 duration-300 ease-linear rounded' : 'w-8 h-1 bg-white duration-300 ease-linear rounded'}`}></span>
-                    <span className={`${showSlide ? 'w-8 h-1 bg-white -translate-x-10 opacity-0 duration-300 ease-linear' : 'w-8 h-1 bg-white duration-700 ease-linear rounded'}`}></span>
+                    <span className={`${showSlide ? 'w-8 h-1 bg-white translate-x-16 opacity-0 duration-300 ease-linear' : 'w-8 h-1 bg-white duration-700 ease-linear rounded'}`}></span>
                     <span className={`${showSlide ? 'w-8 h-1 bg-white -rotate-45 -translate-y-1 duration-300 ease-linear rounded' : 'w-8 h-1 bg-white duration-300 ease-linear rounded'}`}></span>
                 </div>
             </div>
