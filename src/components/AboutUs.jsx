@@ -4,7 +4,7 @@ import Description from '../common/Description'
 
 const AboutUs = () => {
   return (
-    <div className='pt-28 px-5 max-lg:pt-24 max-md:pt-20 max-sm:pt-16 relative'>
+    <div id='about' className='pt-28 px-5 max-lg:pt-24 max-md:pt-20 max-sm:pt-16 relative'>
         <img className='absolute -bottom-1/2 left-0 max-2xl:max-w-96 max-xl:max-w-72 max-md:hidden max-xl:bottom-0 -z-[1]' src="./assets/images/svg/about-left-stars.svg" alt="stars" />
         <img className='absolute right-0 -top-1/2 max-2xl:max-w-96 max-xl:max-w-72 max-md:hidden max-xl:-top-4 -z-[1]' src="./assets/images/svg/about-stars.svg" alt="stars" />
       <div className="container">

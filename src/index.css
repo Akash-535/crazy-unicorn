@@ -6,6 +6,9 @@
   font-family: Pinkunicorn;
   src: url("../public/assets/fonts/Pinky Unicorn.ttf");
 }
+* {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Pinkunicorn", sans-serif;
   background-image: url("../public//assets/images/webp/body-bg.webp");
@@ -16,7 +19,7 @@ body {
   font-family: "Comic Neue", sans-serif;
 }
 
-.footer-icons svg{
-height: 46px !important;
-width: 46px !important;
+.footer-icons svg {
+  height: 46px !important;
+  width: 46px !important;
 }

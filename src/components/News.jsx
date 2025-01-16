@@ -54,7 +54,7 @@ const News = () => {
         <div className="container max-w-[1358px] xl:pt-[137px] lg:pt-24 sm:pt-20 xl:pb-[103px] md:pb-16 pb-12 mx-auto max-xl:px-4">
           <Heading text="Sign up for the latest news" myClass=" text-center mx-auto max-[400px]:max-w-[300px] " />
           <Description text="Convallis et vel cras odio mi, volutpat sed ultrices. Sed amet sed aenean egestas ut sit." myClass=" text-center max-w-[659px] font-comic mx-auto" />
-          <form className="pt-5" ref={form} onSubmit={(e) => { formHandler(e); sendEmail(e); }}>
+          <form className="pt-8" ref={form} onSubmit={(e) => { formHandler(e); sendEmail(e); }}>
             <div className="bg-gradient-to-r from-[#B62AFF80] to-[#FF0DF280] p-[1px] rounded-[10px] max-w-[521px] mx-auto">
               <div className="w-full flex bg-white max-w-[521px] mx-auto justify-between px-2.5 pt-[11.35px] pb-2 rounded-[10px]">
                 <div className="flex items-center sm:justify-center gap-2">

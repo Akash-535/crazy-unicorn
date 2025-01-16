@@ -5,7 +5,7 @@ import Description from '../common/Description'
 
 const Roadmap = () => {
   return (
-    <div className='pt-[231px] pb-20 px-5 overflow-hidden max-2xl:pt-48 max-xl:pt-40 max-lg:pt-32 max-md:pt-28 relative'>
+    <div id='roadmap' className='pt-[231px] pb-[290px] max-2xl:pb-60 max-xl:pb-48 max-lg:pb-40 px-5 overflow-hidden max-2xl:pt-48 max-xl:pt-40 max-lg:pt-32 max-md:pt-28 relative'>
       <img className='absolute right-0 -top-10 max-2xl:max-w-96 max-xl:max-w-72 max-md:max-w-[198px] max-md:top-1/4 -z-[1]' src="./assets/images/svg/roadmap-right-stars.svg" alt="start" />
       <img className='absolute left-0 bottom-0 max-2xl:max-w-60 max-xl:max-w-48 max-md:max-w-[198px] max-md:-bottom-10 -z-[1]' src="./assets/images/svg/roadmap-left-stars.svg" alt="start" />
         <div className='relative text-center max-w-[272px] mx-auto'>

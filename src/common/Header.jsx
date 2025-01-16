@@ -24,7 +24,7 @@ const Header = () => {
                     ))}
                        <div className='lg:hidden flex gap-5'>
                 {SOCIAL_MEDIA_LIST.map((obj , i)=> (
-                    <a key={i} href={obj.link} className='hover:scale-110 duration-300'>{obj.icon}</a>
+                    <a key={i} href={obj.link} target='_blank' className='hover:scale-110 duration-300'>{obj.icon}</a>
                 ))}
                </div>
                 </div>
