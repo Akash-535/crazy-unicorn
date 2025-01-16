@@ -14,7 +14,7 @@ const Header = () => {
         <div className='overflow-hidden mx-auto px-5'>
             <div className='container flex justify-between items-center'>
                 <a href="#"><img className='max-w-[85px]' src="./assets/images/webp/logo.webp" alt="" /></a>
-                <div className={`flex gap-[30px] max-lg:gap-6 max-lg:flex-col max-lg:justify-center max-lg:items-center max-lg:fixed max-lg:top-0 max-lg:w-full max-lg:h-full max-lg:bg-pink-400 duration-300 ease-linear z-10 ${showSlide ? 'max-lg:left-0' : 'max-lg:left-full'}`}>
+                <div className={`flex gap-[30px] max-lg:gap-6 max-lg:flex-col max-lg:justify-center max-lg:items-center max-lg:fixed max-lg:top-0 max-lg:w-full max-lg:h-full max-lg:bg-gradient-to-r max-lg:from-pink-400 max-lg:via-pink-600 max-lg:to-pink-900 duration-300 ease-linear z-10 ${showSlide ? 'max-lg:left-0' : 'max-lg:left-full'}`}>
                     {HEADER_LIST.map((obj, i) => (
                         <ul key={i}>
                             <li className='flex gap-1 flex-row justify-center items-center relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:-bottom-3 after:h-2 after:left-0 after:bg-header-line after:bg-cover after:bg-center after:max-w-16'>

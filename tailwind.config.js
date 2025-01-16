@@ -15,8 +15,15 @@ module.exports = {
       },
     },
     extend: {
+      colors: {
+        "smoke-white":"#FCF5FD",
+        "baby-pink":"#E68AFC",
+        "pink-dark":"#B62AFF",
+        "neon-pink":"#FF0DF2"
+      },
       fontSize:{
         "custom-2xl":"22px",
+        "custom-3xl":"35px",
         "custom-4xl":"40px",
         "custom-7xl":"70px"
       },
@@ -27,6 +34,14 @@ module.exports = {
       },
       backgroundImage:{
         "header-line":"url(../public/assets/images/webp/header-text-line.webp)",
+        "roadmap-left-bg":"url(../public/assets/images/webp/roadmap-cloud-img-one.webp)",
+        "roadmap-right-bg":"url(../public/assets/images/webp/roadmap-cloud-img-two.webp)",
+        "roadmap-left-mobile":"url(../public/assets/images/webp/roadmap-cloud-one-mobile.webp)",
+        "roadmap-right-mobile":"url(../public/assets/images/webp/roadmap-cloud-two-mobile.webp)"
+      },
+      backgroundSize:{
+        "roadmap-clouds":"844px 629px",
+        "roadmap-clouds-md":"345px 231px"
       }
     },
   },

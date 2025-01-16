@@ -41,3 +41,31 @@ export const SOCIAL_MEDIA_LIST = [
         link:"https://discord.com"
     }
 ]
+
+export const ROADMAP_LIST = [
+    {
+        heading:"Phase 1",
+        description:"Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi sit sit magna lorem arcu.",
+        smDescription:"Sed lectus ut elit id lectus diam massa nisl preti Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi."
+    },
+    {
+        heading:"Phase 2",
+        description:"Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi sit sit magna lorem arcu.",
+        smDescription:"Sed lectus ut elit id lectus diam massa nisl preti Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi."
+    },
+    {
+        heading:"Phase 3",
+        description:"Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi sit sit magna lorem arcu.",
+        smDescription:"Sed lectus ut elit id lectus diam massa nisl preti Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi."
+    },
+    {
+        heading:"Phase 4",
+        description:"Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi sit sit magna lorem arcu.",
+        smDescription:"Sed lectus ut elit id lectus diam massa nisl preti Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi."
+    },
+    {
+        heading:"Phase 5",
+        description:"Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi sit sit magna lorem arcu.",
+        smDescription:"Sed lectus ut elit id lectus diam massa nisl preti Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi."
+    }
+]
