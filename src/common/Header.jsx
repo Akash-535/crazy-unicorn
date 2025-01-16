@@ -11,7 +11,7 @@ const Header = () => {
     document.body.style.overflow = showSlide ? "hidden" : "auto";
   }, [showSlide]);
   return (
-    <div className="overflow-hidden mx-auto px-5">
+    <div className="overflow-hidden mx-auto px-5 pt-1.5">
       <div className="container flex justify-between items-center">
         <a href="#">
           <img

@@ -20,7 +20,7 @@ const Team = () => {
           />
           <Heading
             text="Team"
-            myClass=" text-center mx-auto pb-[88px] max-xl:pb-16 max-md:pb-14 max-sm:pb-[45px]"
+            myClass=" text-center mx-auto pb-[63px] max-xl:pb-14 max-md:pb-12 max-sm:pb-11"
           />
         </div>
         <div className="flex items- justify-center gap-6 flex-wrap">
