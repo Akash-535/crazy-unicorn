@@ -28,9 +28,18 @@ export const HEADER_LIST = [
 ]
 
 export const SOCIAL_MEDIA_LIST = [
-    <TwitterIcon />,
-    <InstagramIcon />,
-    <DiscordIcon />
+    {
+        icon: <TwitterIcon />,
+        link: "https://x.com/"
+    },
+    {
+        icon: <InstagramIcon />,
+        link: "https:instagram.com"
+    },
+    {
+        icon: <DiscordIcon />,
+        link: "https://discord.com/"
+    }
 ]
 export const FAQ_DATA_LIST = [
     {
@@ -76,18 +85,18 @@ export const FAQ_DATA_LIST = [
 ];
 export const TEAM_LIST = [
     {
-        image:"./assets/images/team-member.webp",
-        heading:"Jerome Bell",
-        description:"(CEO)"
+        image: "./assets/images/webp/team-member.webp",
+        heading: "Jerome Bell",
+        description: "(CEO)"
     },
     {
-        image:"./assets/images/team-member.webp",
-        heading:"Jenny Wilson",
-        description:"(Founder)"
+        image: "./assets/images/webp/team-member.webp",
+        heading: "Jenny Wilson",
+        description: "(Founder)"
     },
     {
-        image:"./assets/images/team-member.webp",
-        heading:"Ralph Edwards",
-        description:"(Team Member)"
+        image: "./assets/images/webp/team-member.webp",
+        heading: "Ralph Edwards",
+        description: "(Team Member)"
     },
 ]

@@ -11,21 +11,23 @@ module.exports = {
         md: "768px",
         lg: "1024px",
         xl: "1140px",
-        "2xl":"1330px"
+        "2xl": "1330px"
       },
     },
     extend: {
       colors: {
-        "smoke-white":"#FCF5FD",
-        "baby-pink":"#E68AFC",
+        "smoke-white": "#FCF5FD",
+        "baby-pink": "#E68AFC",
+        "pink-dark": "#B62AFF",
+        "neon-pink": "#FF0DF2"
       },
       fontSize: {
         "custom-2xl": "22px",
         "custom-4xl": "40px",
         "custom-7xl": "70px"
       },
-      backgroundImage:{
-        "header-line":"url(../public/assets/images/webp/header-text-line.webp)",
+      backgroundImage: {
+        "header-line": "url(../public/assets/images/webp/header-text-line.webp)",
       }
     },
   },
