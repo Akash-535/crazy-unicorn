@@ -8,10 +8,9 @@
 }
 body {
   font-family: "Pinkunicorn", sans-serif;
-  background-image: url("../public//assets/images/body-bg.webp");
+  background-image: url("../public//assets/images/webp/body-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
 }
 .font-comic {
   font-family: "Comic Neue", sans-serif;

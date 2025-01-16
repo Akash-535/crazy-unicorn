@@ -25,7 +25,7 @@ module.exports = {
         "custom-7xl": "70px"
       },
       backgroundImage:{
-        "header-line":"url(../public/assets/images/header-text-line.webp)",
+        "header-line":"url(../public/assets/images/webp/header-text-line.webp)",
       }
     },
   },
