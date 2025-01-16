@@ -5,14 +5,14 @@ import Description from '../common/Description'
 const AboutUs = () => {
   return (
     <div id='about' className='pt-28 px-5 max-lg:pt-24 max-md:pt-20 max-sm:pt-16 relative'>
-        <img className='absolute -bottom-1/2 left-0 max-2xl:max-w-96 max-xl:max-w-72 max-md:hidden max-xl:bottom-0 -z-[1]' src="./assets/images/svg/about-left-stars.svg" alt="stars" />
-        <img className='absolute right-0 -top-1/2 max-2xl:max-w-96 max-xl:max-w-72 max-md:hidden max-xl:-top-4 -z-[1]' src="./assets/images/svg/about-stars.svg" alt="stars" />
+        <img className='absolute -bottom-1/2 left-0 max-2xl:max-w-96 max-xl:max-w-72 max-md:hidden max-xl:bottom-0 -z-[1] pointer-events-none' src="./assets/images/svg/about-left-stars.svg" alt="stars" />
+        <img className='absolute right-0 -top-1/2 max-2xl:max-w-96 max-xl:max-w-72 max-md:hidden max-xl:-top-4 -z-[1] pointer-events-none' src="./assets/images/svg/about-stars.svg" alt="stars" />
       <div className="container">
         <div className='flex items-center gap-[83px] max-2xl:gap-14 justify-center max-xl:flex-wrap-reverse max-xl:gap-9 max-md:gap-5'>
-          <img className='max-w-[661px] w-full max-2xl:max-w-[590px] max-xl:max-w-[540px] max-lg:max-w-md max-md:max-w-sm max-sm:max-w-xs' src="./assets/images/webp/about-us-img.webp" alt="about us image" />
+          <img className='max-w-[661px] w-full pointer-events-none max-2xl:max-w-[590px] max-xl:max-w-[540px] max-lg:max-w-md max-md:max-w-sm max-sm:max-w-xs' src="./assets/images/webp/about-us-img.webp" alt="about us image" />
           <div className='max-xl:flex flex-col justify-center items-center'>
           <div className='relative text-center max-w-[295px] max-xl:mx-auto'>
-        <img className='max-w-[118px] absolute -top-12 -right-11 max-lg:-right-6 max-lg:-top-full max-md:max-w-24 max-md:right-6 max-md:-top-[50px] max-sm:-right-8' src="./assets/images/webp/little-horse-image.webp" alt="little horse" />
+        <img className='max-w-[118px] pointer-events-none absolute -top-12 -right-11 max-lg:-right-6 max-lg:-top-full max-md:max-w-24 max-md:right-6 max-md:-top-[50px] max-sm:-right-8' src="./assets/images/webp/little-horse-image.webp" alt="little horse" />
         <Heading text="About Us"/>
       </div>
       <Description myClass="max-w-[576px] max-xl:max-w-none max-xl:mx-auto max-xl:text-center max-xl:pt-2" text="Tortor suscipit non habitant natoque elementum, lectus turpis. Maecenas viverra habitasse ut sit eleifend aenean. Egestas platea bibendum tempor non tempus egestas. Rhoncus sit est risus tellus lorem convallis. Amet pellentesque viverra euismod eget dignissim ullamcorper. In et ac amet, habitant erat fermentum eget aliquet lectus. Condimentum congue nibh nisl sed quis justo, senectus egestas. "/>
