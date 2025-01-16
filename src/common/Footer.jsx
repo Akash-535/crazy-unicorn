@@ -1,10 +1,12 @@
 import React from 'react'
 import { SOCIAL_MEDIA_LIST } from '../utils/helper'
+import starLottie from '../lottie/footer-stars.json'
+import Lottie from 'lottie-react'
 
 const Footer = () => {
   return (
     <div className=' relative flex items-center justify-center'>
-      <img className='absolute -bottom-1 left-0 z-[1] max-2xl:max-w-96 max-xl:max-w-72 max-md:hidden' src="./assets/images/svg/footer-stars.svg" alt="stars" />
+      <Lottie className='absolute -bottom-1 left-0 z-[1] max-2xl:max-w-96 max-xl:max-w-72 max-md:hidden' animationData={starLottie}/>
       <div className="flex lg:pt-44 pt-28 flex-col z-10 items-center justify-center">
         <a href="/"><img className='w-full max-sm:max-w-[100px] ' src="./assets/images/webp/footer-logo.webp" alt="footer logo" /></a>
         <div className="flex gap-[21px] sm:pt-[60px] py-8 sm:pb-16">

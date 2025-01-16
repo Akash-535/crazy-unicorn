@@ -1,11 +1,13 @@
 import React from 'react'
 import Heading from '../common/Heading'
 import { TEAM_LIST } from '../utils/helper'
+import rightLottie from '../lottie/right-stars.json'
+import Lottie from 'lottie-react'
 
 const Team = () => {
   return (
     <div id='team' className='relative'>
-      <img className='absolute pointer-events-none right-0 -top-2/3 max-2xl:-top-1/3 max-2xl:max-w-96 max-xl:max-w-72 max-md:max-w-[198px] max-md:top-1/4 -z-[1]' src="./assets/images/svg/faq-right-stars.svg" alt="stars" />
+      <Lottie className='absolute pointer-events-none right-0 -top-2/3 max-2xl:-top-1/3 max-2xl:max-w-96 max-xl:max-w-72 max-md:max-w-[198px] max-md:top-1/4 -z-[1]' animationData={rightLottie}/>
           <div className="container max-w-[1358px] xl:pb-[103px] md:pb-16 pb-12 mx-auto max-xl:px-4">
         <div className='relative text-center lg:max-w-[157px] max-w-[120px] mx-auto'>
           <img className='max-w-[118px] pointer-events-auto absolute -top-11 max-lg:-top-14 -right-14 max-lg:-right-20 max-sm:-right-8' src="./assets/images/webp/little-horse-image.webp" alt="little horse" />

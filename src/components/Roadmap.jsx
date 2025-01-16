@@ -2,12 +2,15 @@ import React from 'react'
 import Heading from '../common/Heading'
 import { ROADMAP_LIST } from '../utils/helper'
 import Description from '../common/Description'
+import leftLottie from "../lottie/left-stars.json"
+import rightLottie from "../lottie/right-stars.json"
+import Lottie from 'lottie-react'
 
 const Roadmap = () => {
   return (
     <div id='roadmap' className='pt-[231px] pb-[290px] max-2xl:pb-60 max-xl:pb-48 max-lg:pb-40 px-5 overflow-hidden max-2xl:pt-48 max-xl:pt-40 max-lg:pt-32 max-md:pt-28 relative'>
-      <img className='absolute pointer-events-none right-0 -top-10 max-2xl:max-w-96 max-xl:max-w-72 max-md:max-w-[198px] max-md:top-1/4 -z-[1]' src="./assets/images/svg/roadmap-right-stars.svg" alt="stars" />
-      <img className='absolute pointer-events-none left-0 bottom-0 max-2xl:max-w-60 max-xl:max-w-48 max-md:max-w-[198px] max-md:-bottom-10 -z-[1]' src="./assets/images/svg/roadmap-left-stars.svg" alt="stars" />
+     <Lottie className='absolute pointer-events-none right-0 -top-10 max-2xl:max-w-96 max-xl:max-w-72 max-md:max-w-[198px] max-md:top-1/4 -z-[1]' animationData={rightLottie}/>
+     <Lottie className='absolute pointer-events-none left-0 bottom-0 max-2xl:max-w-60 max-xl:max-w-48 max-md:max-w-[198px] max-md:-bottom-10 -z-[1]' animationData={leftLottie}/>
         <div className='relative text-center max-w-[272px] mx-auto'>
         <img className='max-w-[118px] pointer-events-auto absolute -top-12 -right-11 max-lg:-right-6 max-lg:-top-full max-md:max-w-24 max-md:right-6 max-md:-top-[50px] max-sm:right-6' src="./assets/images/webp/little-horse-image.webp" alt="little horse" />
         <Heading text="RoadMap"/>
