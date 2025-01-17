@@ -1,23 +1,23 @@
 import React from "react";
 import Header from "../common/Header";
-import Lottie from "lottie-react";
-import leftLottie from "../lottie/hero-left-stars.json";
-import rightLottie from "../lottie/hero-right-stars.json";
+
 const Hero = () => {
   return (
     <div className="relative">
-      <Lottie
-        className="absolute left-0 top-[20%] max-2xl:max-w-96 max-xl:max-w-72 max-md:hidden pointer-events-none"
-        animationData={leftLottie}
+      <img
+        className="absolute left-0 top-[20%] max-2xl:max-w-96 max-xl:max-w-72 max-md:hidden pointer-events-none animate-pulse"
+        src="./assets/images/svg/hero-left-stars.svg"
+        alt="stars"
       />
-      <Lottie
-        className="absolute right-0 bottom-10 max-2xl:max-w-96 max-xl:max-w-72 max-md:hidden pointer-events-none"
-        animationData={rightLottie}
+      <img
+        className="absolute right-0 bottom-10 max-2xl:max-w-96 max-xl:max-w-72 max-md:hidden pointer-events-none animate-pulse"
+        src="./assets/images/svg/hero-right-stars.svg"
+        alt="stars"
       />
       <img
         src="./assets/images/webp/footer-clouds.webp"
         alt="cloud"
-        className="absolute bottom-0 z-10 w-full max-[1921px]:h-[30%] h-[50%] pointer-events-none"
+        className="absolute bottom-0 z-[1] w-full max-[1921px]:h-[30%] h-[50%] pointer-events-none"
       />
       <Header />
       <div className="relative pt-[165px] max-2xl:pt-24 max-xl:pt-16 max-lg:pt-0">

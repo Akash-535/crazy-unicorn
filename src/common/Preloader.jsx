@@ -9,7 +9,7 @@ const Preloader = () => {
     setTimeout(() => {
       setPreloader(false);
       document.body.style.overflow = "auto";
-    }, 3000);
+    }, 3500);
   }, []);
 
   return (

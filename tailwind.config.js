@@ -19,7 +19,9 @@ module.exports = {
         "smoke-white":"#FCF5FD",
         "baby-pink":"#E68AFC",
         "pink-dark":"#B62AFF",
-        "neon-pink":"#FF0DF2"
+        "neon-pink":"#FF0DF2",
+        "dark-purple":"#B62AFF80",
+        "purple":"#FF0DF280"
       },
       fontSize:{
         "custom-2xl":"22px",

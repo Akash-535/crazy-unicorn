@@ -1,24 +1,33 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Heading from "../common/Heading";
 import { ROADMAP_LIST } from "../utils/helper";
 import Description from "../common/Description";
-import leftLottie from "../lottie/left-stars.json";
-import rightLottie from "../lottie/right-stars.json";
-import Lottie from "lottie-react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Roadmap = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      easing: "ease-in-out",
+      once: false,
+      offset: 100,
+    });
+  }, []);
   return (
     <div
       id="roadmap"
       className="pt-[231px] pb-[290px] max-2xl:pb-60 max-xl:pb-48 max-lg:pb-40 px-5 overflow-hidden max-2xl:pt-48 max-xl:pt-40 max-lg:pt-32 max-md:pt-24 relative"
     >
-      <Lottie
-        className="absolute pointer-events-none right-0 -top-10 max-2xl:max-w-96 max-xl:max-w-72 max-md:max-w-[198px] max-md:top-1/4 -z-[1]"
-        animationData={rightLottie}
+      <img
+        className="absolute animate-pulse pointer-events-none right-0 -top-10 max-2xl:max-w-96 max-xl:max-w-72 max-md:max-w-[198px] max-md:top-1/4 -z-[1]"
+        src="./assets/images/svg/right-stars.svg"
+        alt="stars"
       />
-      <Lottie
-        className="absolute pointer-events-none left-0 bottom-0 max-2xl:max-w-60 max-xl:max-w-48 max-md:max-w-[198px] max-md:-bottom-10 -z-[1]"
-        animationData={leftLottie}
+      <img
+        className="absolute animate-pulse pointer-events-none left-0 bottom-0 max-2xl:max-w-60 max-xl:max-w-48 max-md:max-w-[198px] max-md:-bottom-10 -z-[1]"
+        src="./assets/images/svg/left-stars.svg"
+        alt="stars"
       />
       <div className="relative text-center max-w-[272px] mx-auto">
         <img
@@ -42,6 +51,22 @@ const Roadmap = () => {
         <div className="overflow-x-hidden">
           {ROADMAP_LIST.map((obj, i) => (
             <div
+              data-aos={
+                i === 0 || i === 3 || i === 5 ? "fade-right" : "fade-left"
+              }
+              data-aos-duration={
+                i === 0
+                  ? "800"
+                  : i === 1
+                  ? "1000"
+                  : i === 2
+                  ? "1200"
+                  : i === 3
+                  ? "1400"
+                  : i === 4
+                  ? "1600"
+                  : "1800"
+              }
               key={i}
               className={`h-[629px] max-2xl:h-[580px] max-xl:h-[251px] pt-[127px] w-full max-w-[844px] max-2xl:max-w-[770px] max-xl:max-w-[650px] max-2xl:bg-contain bg-roadmap-clouds bg-no-repeat absolute flex justify-center items-center max-xl:pt-20 max-xl:justify-normal max-[575px]:justify-center ${
                 i === 0

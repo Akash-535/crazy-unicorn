@@ -1,8 +1,6 @@
 import React from "react";
 import Heading from "../common/Heading";
 import Description from "../common/Description";
-import leftLottie from "../lottie/left-stars.json";
-import Lottie from "lottie-react";
 
 const OurStory = () => {
   return (
@@ -10,11 +8,12 @@ const OurStory = () => {
       <img
         src="./assets/images/webp/footer-clouds.webp"
         alt="cloud"
-        className="absolute rotate-180 top-0 h-[2%] w-full pointer-events-none -mt-1"
+        className="absolute rotate-180 top-0 h-1/4 w-full pointer-events-none -mt-1 min-[1921px]:h-[40%]"
       />
-      <Lottie
-        className="absolute left-0 -top-1/4 -z-[1] max-2xl:max-w-96 max-xl:max-w-72 max-md:hidden max-xl:-top-20"
-        animationData={leftLottie}
+      <img
+        className="absolute left-0 -top-1/4 -z-[1] max-2xl:max-w-96 max-xl:max-w-72 max-md:hidden max-xl:-top-20 animate-pulse"
+        src="./assets/images/svg/left-stars.svg"
+        alt="stars"
       />
       <div className="relative text-center max-w-[295px] mx-auto">
         <img

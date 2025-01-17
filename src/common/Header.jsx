@@ -17,7 +17,7 @@ const Header = () => {
           <img
             className="max-w-[85px]"
             src="./assets/images/webp/logo.webp"
-            alt=""
+            alt="logo"
           />
         </a>
         <div
@@ -41,6 +41,7 @@ const Header = () => {
           <div className="lg:hidden flex gap-5">
             {SOCIAL_MEDIA_LIST.map((obj, i) => (
               <a
+                onClick={closeNavbar}
                 key={i}
                 href={obj.link}
                 target="_blank"
@@ -53,7 +54,12 @@ const Header = () => {
         </div>
         <div className="flex gap-5 max-lg:hidden">
           {SOCIAL_MEDIA_LIST.map((obj, i) => (
-            <a key={i} href={obj.link} className="hover:scale-110 duration-300">
+            <a
+              key={i}
+              href={obj.link}
+              target="_blank"
+              className="hover:scale-110 duration-300"
+            >
               {obj.icon}
             </a>
           ))}
