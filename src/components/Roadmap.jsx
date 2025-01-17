@@ -2,18 +2,8 @@ import React, { useEffect } from "react";
 import Heading from "../common/Heading";
 import { ROADMAP_LIST } from "../utils/helper";
 import Description from "../common/Description";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Roadmap = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1200,
-      easing: "ease-in-out",
-      once: false,
-      offset: 100,
-    });
-  }, []);
   return (
     <div
       id="roadmap"

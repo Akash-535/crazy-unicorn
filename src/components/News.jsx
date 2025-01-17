@@ -70,7 +70,7 @@ const News = () => {
                 <div className="flex items-center sm:justify-center gap-2">
                   <EmailIcon />
                   <input
-                    className="bg-transparent sm:w-[250px] max-sm:pr-2 outline-none w-full text-base text-black placeholder:text-black placeholder:opacity-70 font-comic"
+                    className="bg-transparent sm:w-[227px] max-sm:pr-2 outline-none w-1/2 text-base text-black placeholder:text-black placeholder:opacity-70 font-comic"
                     type="email"
                     placeholder="Your email"
                     name="email"

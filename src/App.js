@@ -9,10 +9,21 @@ import Faq from './components/Faq';
 import News from './components/News';
 import Preloader from './common/Preloader';
 import BackToTop from './common/BackToTop';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 function App() {
+    useEffect(() => {
+      AOS.init({
+        duration: 1200,
+        easing: "ease-in-out",
+        once: false,
+        offset: 100,
+      });
+    }, []);
   return (
-    <>
+    <div className='overflow-hidden'>
         <Preloader/>
         <Hero/>
         <OurStory/>
@@ -23,7 +34,7 @@ function App() {
         <News />
        <Footer />
        <BackToTop/>
-    </>
+    </div>
   );
 }
 

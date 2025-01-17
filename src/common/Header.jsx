@@ -33,7 +33,7 @@ const Header = () => {
                   href={obj.link}
                   className=" text-base font-bold text-custom-2xl"
                 >
-                  {obj.item}
+                  {obj.title}
                 </a>
               </li>
             </ul>

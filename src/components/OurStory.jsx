@@ -4,20 +4,20 @@ import Description from "../common/Description";
 
 const OurStory = () => {
   return (
-    <div id="story" className="pt-20 relative z-[3]">
+    <div id="story" className="max-xl:pt-16 max-md:pt-10 relative z-[3]">
       <img
         src="./assets/images/webp/footer-clouds.webp"
         alt="cloud"
         className="absolute rotate-180 top-0 h-1/4 w-full pointer-events-none -mt-1 min-[1921px]:h-[40%]"
       />
       <img
-        className="absolute left-0 -top-1/4 -z-[1] max-2xl:max-w-96 max-xl:max-w-72 max-md:hidden max-xl:-top-20 animate-pulse"
+        className="absolute left-0 -top-1/4 -z-[1] max-2xl:max-w-96 max-xl:max-w-72 max-md:hidden max-xl:-top-20 animate-pulse pointer-events-none"
         src="./assets/images/svg/left-stars.svg"
         alt="stars"
       />
       <div className="relative text-center max-w-[295px] mx-auto">
         <img
-          className="pointer-events-none max-w-[118px] absolute -top-12 -right-11 max-lg:-right-6 max-lg:-top-full max-md:max-w-24 max-md:right-6 max-md:-top-[50px] max-sm:right-8"
+          className="pointer-events-none w-[118.51px] max-h-[84.41px] absolute -top-10 -right-11 max-lg:-right-6 max-lg:-top-full max-md:max-w-24 max-md:right-6 max-md:-top-[50px] max-sm:right-8"
           src="./assets/images/webp/little-horse-image.webp"
           alt="little horse"
         />

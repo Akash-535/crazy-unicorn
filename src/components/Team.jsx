@@ -1,18 +1,7 @@
 import React, { useEffect } from "react";
 import Heading from "../common/Heading";
 import { TEAM_LIST } from "../utils/helper";
-import AOS from "aos";
-import "aos/dist/aos.css";
 const Team = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1200,
-      easing: "ease-in-out",
-      once: false,
-      offset: 100,
-    });
-  }, []);
-
   return (
     <div id="team" className="relative">
       <img

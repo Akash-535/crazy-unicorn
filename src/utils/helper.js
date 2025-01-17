@@ -2,27 +2,27 @@ import { DiscordIcon, InstagramIcon, TwitterIcon } from "./icons"
 
 export const HEADER_LIST = [
     {
-        item: 'Home',
+        title: 'Home',
         link: "#home"
     },
     {
-        item: 'Story',
+        title: 'Story',
         link: "#story"
     },
     {
-        item: 'About',
+        title: 'About',
         link: "#about"
     },
     {
-        item: 'Roadmap',
+        title: 'Roadmap',
         link: "#roadmap"
     },
     {
-        item: 'Team',
+        title: 'Team',
         link: "#team"
     },
     {
-        item: 'FAQs',
+        title: 'FAQs',
         link: "#faq"
     }
 ]
@@ -34,7 +34,7 @@ export const SOCIAL_MEDIA_LIST = [
     },
     {
         icon: <InstagramIcon />,
-        link: "https:instagram.com"
+        link: "https://instagram.com/"
     },
     {
         icon: <DiscordIcon />,

@@ -1,18 +1,7 @@
 import React, { useEffect } from "react";
 import Heading from "../common/Heading";
 import Description from "../common/Description";
-import AOS from "aos";
-import "aos/dist/aos.css";
-
 const AboutUs = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1200,
-      easing: "ease-in-out",
-      once: false,
-      offset: 100,
-    });
-  }, []);
   return (
     <div
       id="about"
@@ -28,7 +17,7 @@ const AboutUs = () => {
         src="./assets/images/svg/right-stars.svg"
         alt="stars"
       />
-      <div className="container overflow-hidden">
+      <div className="container">
         <div className="flex items-center gap-[83px] max-2xl:gap-14 justify-center max-xl:flex-wrap-reverse max-xl:gap-7 max-md:gap-5">
           <img
             data-aos="fade-right"
@@ -44,7 +33,7 @@ const AboutUs = () => {
           >
             <div className="relative text-center max-w-[295px] max-xl:mx-auto">
               <img
-                className="max-w-[118px] pointer-events-none absolute -top-12 -right-11 max-lg:-right-6 max-lg:-top-full max-md:max-w-24 max-md:right-6 max-md:-top-[50px] max-sm:-right-8"
+                className="w-[118.51px] max-h-[84.41px] pointer-events-none absolute -top-11 -right-7 max-lg:-right-6 max-lg:-top-full max-md:max-w-24 max-md:right-6 max-md:-top-[50px] max-sm:-right-8"
                 src="./assets/images/webp/little-horse-image.webp"
                 alt="little horse"
               />
@@ -59,7 +48,7 @@ const AboutUs = () => {
               text="In in ut scelerisque quam purus, quam. Porttitor aenean elit blandit gravida potenti sed. Mauris."
             />
             <div className="bg-gradient-to-l from-pink-dark to-neon-pink max-w-[234px] min-[1920.98px]:max-w-[217px] rounded-xl mt-14 max-xl:mt-10 max-lg:mt-5 max-md:mt-3 max-md:max-w-[190px]">
-              <button className="bg-white py-4 px-12 min-[1920.98px]:px-9 border-[0.5px] border-black rounded-xl -translate-x-1.5 -translate-y-1.5 min-[1920.98px]:-translate-x-1 hover:translate-x-0 hover:translate-y-0 duration-300 ease-linear max-md:px-6 max-md:py-2">
+              <button className="bg-white py-4 px-[46px] w-full min-[1920.98px]:px-9 border-[0.5px] border-black rounded-xl -translate-x-1.5 -translate-y-1.5 min-[1920.98px]:-translate-x-1 hover:translate-x-0 hover:translate-y-0 duration-300 ease-linear max-md:px-[23px] max-md:py-2">
                 <span className="bg-gradient-to-r from-pink-dark to-neon-pink bg-clip-text text-transparent text-custom-3xl font-normal leading-custom-lg">
                   Mint Now
                 </span>
